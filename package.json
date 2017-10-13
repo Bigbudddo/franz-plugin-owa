@@ -1,0 +1,23 @@
+{
+  "name": "OutlookOWA",
+  "version": "0.1.0",
+  "description": "OWA Web Portal",
+  "main": "index.js",
+  "author": "Stuart Harrison <email@stuart-harrison.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://3.exchange2010.livemail.co.uk/owa/",
+    "serviceName": "OWA 2010 Web Portal",
+    "message": "OWA 2010 Web Portal",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
